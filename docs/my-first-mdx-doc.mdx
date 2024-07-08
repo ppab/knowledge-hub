@@ -1,0 +1,76 @@
+---
+sidebar_position: 4
+---
+import CodeBlock from '@theme/CodeBlock';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import Snippet1 from "./partials/_test.md"
+import Snippet2 from "./partials/_test2.md"
+
+export const Columns = ({children}) => (
+    <div className="flex-col">
+        {children}
+    </div>
+);
+
+export const Column = ({children}) => (
+    <div className="col">
+        {children}
+    </div>
+);
+
+
+
+<Columns>
+    <Column>
+        <Snippet2/>
+    </Column>
+    <Column>
+        ```js title="/src/components/HelloCodeTitle.js"
+        // highlight-start
+        const test = "this block code wil work?"
+        const test = "this block code wil work?"
+        const test = "this block code wil work?"
+        //highlight-end
+        //
+
+        ------ you can compare code in the left
+        ```
+    </Column>
+</Columns>
+
+
+<Columns>
+    <Column>
+        ```js {1,4}
+        const test = "this block code wil work?"
+        // highlight-next-line
+        const test = "this block code wil work?"
+        const test = "this block code wil work?"
+        // you can compare code in the right, ->>
+
+        ```
+    </Column>
+    <Column>
+        <Snippet1/>
+    </Column>
+</Columns>
+
+
+
+<Tabs>
+    <TabItem value="js" label="JavaScript">
+
+        <Snippet1/>
+
+    </TabItem>
+    <TabItem value="py" label="Python">
+        <Snippet2/>
+
+    </TabItem>
+    <TabItem value="java" label="Java">
+
+        <Snippet2/>
+
+    </TabItem>
+</Tabs>

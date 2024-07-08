@@ -1,0 +1,71 @@
+/*@import './tailwind.css';*/
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+    --ifm-color-primary: #2e4385;
+    --ifm-color-primary-dark: #293c78;
+    --ifm-color-primary-darker: #273971;
+    --ifm-color-primary-darkest: #202f5d;
+    --ifm-color-primary-light: #334a92;
+    --ifm-color-primary-lighter: #354d99;
+    --ifm-color-primary-lightest: #3c57ad;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+    --ifm-color-primary: #4e99fc;
+    --ifm-color-primary-dark: #2e86fb;
+    --ifm-color-primary-darker: #1d7dfb;
+    --ifm-color-primary-darkest: #4e99fc;
+    --ifm-color-primary-light: #6eacfd;
+    --ifm-color-primary-lighter: #7fb5fd;
+    --ifm-color-primary-lightest: #afd1fe;
+    --ifm-background-color: #070c31;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+.code-block-error-line {
+    background-color: #ff000020;
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
+    border-left: 3px solid #ff000080;
+}
+
+.flex-col {
+    display: flex;
+    gap: 5%;
+}
+
+.col {
+    width: 100%;
+}
+
+/* Customize the title of the code block */
+.codeBlockContainer .codeBlockTitle {
+    background-color: #61dafb; /* Example: Change the title background color */
+    color: #282c34; /* Example: Change the title text color */
+    font-size: 1.2em; /* Example: Change the title font size */
+    padding: 0.5em; /* Example: Change the title padding */
+    border-top-left-radius: 5px; /* Add border radius to match the code block */
+    border-top-right-radius: 5px; /* Add border radius to match the code block */
+}
+
+
+.codeBlockTitle_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module {
+    border-bottom: 1px solid var(--ifm-color-emphasis-100);
+    font-size: var(--ifm-code-font-size);
+    font-weight: normal;
+    color: var(--custom-text-color);
+    padding: 0.5rem var(--ifm-pre-padding);
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    /*text-align: right;*/
+}

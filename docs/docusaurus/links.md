@@ -1,0 +1,1 @@
+https://github.com/webbertakken/awesome-docusaurus?tab=readme-ov-file
