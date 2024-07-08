@@ -15,7 +15,7 @@ const config: Config = {
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'ppab', // Usually your GitHub org/user name.
+    organizationName: 'ppab', // Usually your GitHub org/userName.
     projectName: 'knowledge-hub', // Usually your repo name.
 
     onBrokenLinks: 'throw',
@@ -38,7 +38,7 @@ const config: Config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                        'https://github.com/ppab/knowledge-hub'
                 },
                 blog: {
                     showReadingTime: true,
@@ -59,21 +59,21 @@ const config: Config = {
         image: 'img/docusaurus-social-card.jpg',
         navbar: {
             title: 'ppab',
-            logo: {
-                alt: 'My Site Logo',
-                src: 'img/logo.svg',
-            },
+            // logo: {
+            //     alt: 'My Site Logo',
+            //     // src: 'img/logo.svg',
+            // },
             items: [
                 {
                     type: 'docSidebar',
                     sidebarId: 'tutorialSidebar',
                     position: 'left',
-                    label: 'Knowledge Lake',
+                    label: 'Knowledge Hub',
                 },
                 {to: '/tools', label: 'Tools', position: 'left'},
                 {to: '/blog', label: 'Blog', position: 'left'},
                 {
-                    href: 'https://github.com/facebook/docusaurus',
+                    href: 'https://github.com/ppab/knowledge-hub',
                     label: 'GitHub',
                     position: 'right',
                 },
@@ -83,28 +83,24 @@ const config: Config = {
             style: 'dark',
             links: [
                 {
-                    title: 'Docs',
+                    title: 'Knowledge hub',
                     items: [
                         {
-                            label: 'Tutorial',
-                            to: '/docs/intro',
+                            label: 'IAC',
+                            to: '/docs/category/iac',
                         },
                     ],
                 },
                 {
-                    title: 'Community',
+                    title: 'Projects',
                     items: [
                         {
-                            label: 'Stack Overflow',
-                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                            label: 'Nestjs/TypeormGenericServiceAndController',
+                            href: 'https://github.com/ppab/knowledge-hub',
                         },
                         {
-                            label: 'Discord',
-                            href: 'https://discordapp.com/invite/docusaurus',
-                        },
-                        {
-                            label: 'Twitter',
-                            href: 'https://twitter.com/docusaurus',
+                            label: 'React/UseGenericEntity',
+                            href: 'https://github.com/ppab/knowledge-hub',
                         },
                     ],
                 },
@@ -117,12 +113,12 @@ const config: Config = {
                         },
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/facebook/docusaurus',
+                            href: 'https://github.com/ppab/knowledge-hub'
                         },
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} ppab`,
         },
         prism: {
             theme: prismThemes.github,
