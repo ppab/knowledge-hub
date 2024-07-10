@@ -1,6 +1,6 @@
 # Testing in Nest
 ## Commands
-```bash
+```shell
 ## For unit tests
 npm run test 
 
@@ -39,7 +39,7 @@ e2e tests are great for high-level validation of the entire system. e2e testing 
 - The file extension must be (dot).e2e-spec.ts. `*.e2e-spec.ts`
 
 ```text
-├── src[ecs-metadata.service.ts](src%2Faws-metadata%2Fecs-metadata%2Fecs-metadata.service.ts)
+├── src ...
 ├── test
 │   ├── app.e2e-spec.ts
 ```
