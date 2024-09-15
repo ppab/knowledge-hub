@@ -40,6 +40,7 @@ const config: Config = {
                     editUrl:
                         'https://github.com/ppab/knowledge-hub'
                 },
+
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
@@ -51,6 +52,46 @@ const config: Config = {
                     customCss: './src/css/custom.css',
                 },
             } satisfies Preset.Options,
+        ],
+
+    ],
+    plugins: [
+        [
+            '@docusaurus/plugin-content-docs',
+
+            {
+                id: 'caseStudies', // Unique ID for the second docs instance
+                path: 'caseStudies', // Path to the folder containing the tutorials
+                routeBasePath: 'case-studies', // URL route for the tutorials
+                sidebarPath: require.resolve('./sidebars.js'),
+                // sidebarCollapsible: true,
+
+            },
+        ],
+        [
+            '@docusaurus/plugin-content-docs',
+
+            {
+                id: 'learningPortal', // Unique ID for the second docs instance
+                path: 'learningPortal', // Path to the folder containing the tutorials
+                routeBasePath: 'learning-portal', // URL route for the tutorials
+                sidebarPath: require.resolve('./sidebars.js'),
+                tagsBasePath: 'tags', // Optional: Creates a /tags route to list all tag
+                // sidebarCollapsible: true,
+
+            },
+        ],
+        [
+            '@docusaurus/plugin-content-docs',
+
+            {
+                id: 'certifications', // Unique ID for the second docs instance
+                path: 'certifications', // Path to the folder containing the tutorials
+                routeBasePath: 'certifications', // URL route for the tutorials
+                sidebarPath: require.resolve('./sidebars.js'),
+                // sidebarCollapsible: true,
+
+            },
         ],
     ],
 
@@ -70,13 +111,15 @@ const config: Config = {
                     position: 'left',
                     label: 'Knowledge Hub',
                 },
-                {to: '/tools', label: 'Tools', position: 'left'},
-                {to: '/blog', label: 'Blog', position: 'left'},
-                {
-                    href: 'https://github.com/ppab/knowledge-hub',
-                    label: 'GitHub',
-                    position: 'right',
-                },
+                {to: '/learning-portal', label: 'Learning Portal', position: 'left'},
+                {to: '/case-studies', label: 'Case Studies', position: 'left'},
+                {to: '/certifications', label: 'Certifications', position: 'left'},
+                {to: '/blog', label: 'Blog', position: 'right'},
+                // {
+                //     href: 'https://github.com/ppab/knowledge-hub',
+                //     label: 'GitHub',
+                //     position: 'right',
+                // },
             ],
         },
         footer: {

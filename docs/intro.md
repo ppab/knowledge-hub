@@ -9,7 +9,7 @@ Let's discover **Docusaurus in less than 5 minutes**.
 ## Getting Started
 
 Get started by **creating a new site**.
-
+[_category_.json](IAC%2Fcfn%2F_category_.json)
 Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
 ### What you'll need
