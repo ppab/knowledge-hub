@@ -93,6 +93,19 @@ const config: Config = {
 
             },
         ],
+        [
+            '@docusaurus/plugin-content-docs',
+
+            {
+                id: 'tools', // Unique ID for the second docs instance
+                path: 'myTools', // Path to the folder containing the tutorials
+                routeBasePath: 'tools', // URL route for the tutorials
+                sidebarPath: require.resolve('./sidebars.js'),
+                // sidebarCollapsible: true,
+
+            },
+        ],
+
     ],
 
     themeConfig: {
@@ -114,6 +127,7 @@ const config: Config = {
                 {to: '/learning-portal', label: 'Learning Portal', position: 'left'},
                 {to: '/case-studies', label: 'Case Studies', position: 'left'},
                 {to: '/certifications', label: 'Certifications', position: 'left'},
+                {to: '/tools', label: 'Tools', position: 'left'},
                 {to: '/blog', label: 'Blog', position: 'right'},
                 // {
                 //     href: 'https://github.com/ppab/knowledge-hub',
