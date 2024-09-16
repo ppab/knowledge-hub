@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docker/docker-commands.md",
+                "file": "learningPortal/digital-training/courses/Linux/linux-in-the-real-world/project_1-creating-a-local-test-environment.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "instructor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/docker/docker-commands.md",
+                "file": "learningPortal/digital-training/courses/Linux/linux-in-the-real-world/project_1-creating-a-local-test-environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/docker/docker-commands.md",
+                "file": "learningPortal/digital-training/courses/Linux/linux-in-the-real-world/project_1-creating-a-local-test-environment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/docker/docker-commands.md"
+                "file": "learningPortal/digital-training/courses/Linux/linux-in-the-real-world/project_1-creating-a-local-test-environment.md"
               }
             }
           }
@@ -146,10 +147,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "23c88659315bc09f",
+  "active": "0ca010692546772a",
   "lastOpenFiles": [
+    "learningPortal/digital-training/courses/Docker/jason/install-docker-in-centos.md",
     "learningPortal/digital-training/courses/Linux/linux-in-the-real-world/project_1-creating-a-local-test-environment.md",
+    "build/sitemap.xml",
+    "build/index.html",
+    "build/learning-portal/digital-training/bootcamps/cloud-mastery/SAP/session-1/notes/index.html",
+    "build/learning-portal/digital-training/bootcamps/cloud-mastery/SAP/session-1/deliverables/index.html",
+    "build/learning-portal/digital-training/bootcamps/cloud-mastery/SAP/session-1/case-study/index.html",
+    "build/learning-portal/digital-training/courses/Linux/linux-in-the-real-world/project_1-creating-a-local-test-environment/index.html",
+    "build/learning-portal/digital-training/courses/Docker/jason/install-docker-in-centos/index.html",
+    "build/learning-portal/digital-training/bootcamps/cloud-mastery/SAP/session-1/notes",
+    "build/learning-portal/digital-training/bootcamps/cloud-mastery/SAP/session-1/deliverables",
+    "build/learning-portal/digital-training/bootcamps/cloud-mastery/SAP/session-1/case-study",
+    "build/img/logo.svg",
+    "build/img/docusaurus.png",
     "docs/docker/docker-commands.md",
-    "docs/docker"
+    "learningPortal/why.md",
+    "build/assets/images/localeDropdown-f0d995e751e7656a1b0dbbc1134e49c2.png",
+    "build/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg",
+    "build/assets/images/docsVersionDropdown-35e13cbe46c9923327f30a76a90bff3b.png"
   ]
 }

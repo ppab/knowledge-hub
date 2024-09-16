@@ -1,3 +1,8 @@
+---
+tags:
+  - docker
+instructor: Jason
+---
 # Creating a Local Test Environment
 
 ## Vagrant

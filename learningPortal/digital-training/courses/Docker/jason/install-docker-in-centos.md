@@ -1,5 +1,9 @@
-["Docker docs"]("https://docs.docker.com/engine/install/centos/)
-
+---
+tags:
+  - docker
+---
+["Docker docs"](https://docs.docker.com/engine/install/centos/)
+#docker 
 1. Become root user
 
 ```shell
@@ -21,7 +25,7 @@ sudo su
 yum remove -y docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-lograte docker-engine
 ```
 
-#Upate OS
+# Update OS
 
 ```shell
 yum update -y
@@ -42,16 +46,20 @@ yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce
 ```
 
 ## install docker
+
 ```shell
 sudo yum instal -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 ```
 
 ## Start Docker:
+
 ```shell
 sudo systemctl start docker
 ```
+
 ## Verify that docker Engine installation is succesful by running the hello-wold?
+
 ```shell
 sudo docker run hello-world
 ```

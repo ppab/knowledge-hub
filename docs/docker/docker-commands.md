@@ -1,9 +1,7 @@
 Docker commands that will help you become a Docker power user:
 
-<iframe width="560" height="315" src="https://google.com" frameborder="0" allowfullscreen></iframe>
-
 | **Command**                           | **Description**                                                                     |
-| ------------------------------------- | ----------------------------------------------------------------------------------- |
+|---------------------------------------|-------------------------------------------------------------------------------------|
 | `docker --version`                    | Displays the version of Docker installed.                                           |
 | `docker pull <image>`                 | Downloads a Docker image from a registry (e.g., Docker Hub).                        |
 | `docker build -t <name>:<tag> <path>` | Builds a Docker image from a Dockerfile located at the specified path.              |
